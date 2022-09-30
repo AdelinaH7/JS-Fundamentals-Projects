@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <span id="hours">00</span>
+      <span>:</span>
+      <span id="minutes">00</span>
+      <span>:</span>
+      <span id="seconds">00</span>
+      <span id="session">AM</span>
+    </div>
+    <div class="calculator">
+      <div class="display">
+        <div class="result" id="result"></div>
+        <div class="deleteButton" id="delete">DEL</div>
+      </div>
+
+      <div class="buttons">
+        <div class="operators">
+          <div id="add">+</div>
+          <div id="subtract">-</div>
+          <div id="times">&times;</div>
+          <div id="divide">&divide;</div>
+        </div>
+        <div class="leftPanel">
+          <div class="numbers">
+            <div id="digit7">7</div>
+            <div id="digit8">8</div>
+            <div id="digit9">9</div>
+          </div>
+          <div class="numbers">
+            <div id="digit4">4</div>
+            <div id="digit5">5</div>
+            <div id="digit6">6</div>
+          </div>
+          <div class="numbers">
+            <div id="digit1">1</div>
+            <div id="digit2">2</div>
+            <div id="digit3">3</div>
+          </div>
+          <div class="numbers">
+            <div id="digit0">0</div>
+            <div>.</div>
+            <div id="clear">C</div>
+          </div>
+        </div>
+        <div class="equal" id="equal">=</div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+    <script src="clock.js"></script>
+  </body>
+</html>

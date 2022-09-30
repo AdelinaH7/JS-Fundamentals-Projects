@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #aecfeb;
+  height: 8%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 1%;
+}
+
+.banner {
+  position: relative;
+  /*display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;*/
+  background: url(./Assets/Banner.jpg);
+  background-size: cover;
+  text-align: center;
+  background-position: top;
+  min-height: 85vh;
+  min-width: 100vw;
+}
+
+.banner-title {
+  font-size: 80px;
+  padding-top: 250px;
+}
+
+.banner-p {
+  font-size: 50px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.simple-card {
+  width: 35%;
+  background-color: #181818;
+  color: azure;
+}
+
+.simple-card h2 {
+  margin-top: 50px;
+  color: black;
+  background-color: white;
+  margin-left: 55%;
+  margin-bottom: 10px;
+}
+
+.simple-card img {
+  height: 300px;
+  float: left;
+  padding-right: 20px;
+}
+h3 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #aadaf0;
+  min-height: 70vh;
+  min-width: 100vw;
+}
+
+.form-button {
+  background-color: #181818;
+  color: aliceblue;
+  width: 40%;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 7%;
+  margin-left: 30%;
+}
+.form-button:hover {
+  background-color: #aecfeb;
+  color: #181818;
+  border: none;
+}
+
+input {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+label {
+  color: #181818;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h4 {
+  font-size: 20px;
+}
+
+.footer-icons {
+  font-size: 35px;
+}
+
+.footer-icons a {
+  margin-right: 130px;
+  color: #181818;
+}
